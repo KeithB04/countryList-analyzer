@@ -18,7 +18,7 @@ import java.util.Scanner;
  * @author Keith Brandenburg
  * @version 2 February 2025
  */
-public class Project1 {
+public class countryListAnalyzer {
 	
 	/** The countries. */
 	private static Country[] countries;
@@ -265,3 +265,4 @@ public class Project1 {
 		return (double) (agree - disagree) / (n * (n - 1) / 2);
 	}
 }
+
