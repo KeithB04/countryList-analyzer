@@ -33,8 +33,6 @@ public class countryListAnalyzer {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("COP 3530 Project1");
-		System.out.println("Instructor Xudong Liu");
 		System.out.println("\nArray Searches and Sorts");
 		boolean fileFound = false;
 		String fileName = "";
@@ -265,4 +263,5 @@ public class countryListAnalyzer {
 		return (double) (agree - disagree) / (n * (n - 1) / 2);
 	}
 }
+
 
